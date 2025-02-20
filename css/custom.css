@@ -8,7 +8,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: vertical;
-
 }
 h1 {
     font-size: 3.6rem;
@@ -17,4 +16,7 @@ h1 {
 nav img{
     height: 60px;
     width: auto;
+}
+.links {
+    gap:2rem;
 }
