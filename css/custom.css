@@ -20,3 +20,14 @@ nav img{
 .links {
     gap:4 rem;
 }
+
+
+
+
+/*-- Media Queries --*/
+
+@media screen and (max-width: 550px) {
+    nav {
+        flex-wrap: wrap;
+    }
+}
