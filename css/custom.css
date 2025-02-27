@@ -89,7 +89,4 @@ div.text {
     section.even, section.odd {
         grid-template-columns: 1fr;
     }
-    section.even div.poster {
-        order: -1;
     }
-}
