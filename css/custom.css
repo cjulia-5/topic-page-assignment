@@ -30,13 +30,41 @@ svg {
 Document Styles --*/
 
 nav {
-    background-color: rgba(65, 65, 251, 0.983);
+    background-color: rgba(200, 211, 135, 0.669);
     color: azure;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
 }
+nav footer {
+    align-items: center;
+    padding: 1rem 2rem;
+}
+nav div {
+    display: flex;
+}
+.logo {
+    align-items: center;
+    gap: 2rem;
+}
+.logo h1 {
+    padding-top: 10px;
+}
+.links {
+    gap: 4rem
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*-- Media Queries --*/
 
