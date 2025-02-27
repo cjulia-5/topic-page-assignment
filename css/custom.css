@@ -30,7 +30,7 @@ svg {
 Document Styles --*/
 
 nav {
-    background-color: rgba(200, 211, 135, 0.669);
+    background-color: rgba(239, 244, 211, 0.669);
     color: azure;
     display: flex;
     justify-content: space-between;
@@ -43,6 +43,9 @@ nav footer {
 }
 nav div {
     display: flex;
+}
+.hero-copy {
+    align-items: center;
 }
 .logo {
     align-items: center;
