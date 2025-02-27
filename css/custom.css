@@ -54,22 +54,42 @@ nav div {
 .links {
     gap: 4rem
 }
-
-
-
-
-
-
-
-
-
-
-
+nav img {
+    height: 6rem;
+    width: auto;
+}
+main {
+    max-width: 78vw;
+    margin: auto;
+}
+section {
+    display: grid;
+    margin: 3rem auto;
+    grid-gap: 3rem;
+}
+section.odd {
+    grid-template-columns: 8fr 4fr;
+}
+section.even {
+    grid-template-columns: 4fr 8fr;
+}
+div.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /*-- Media Queries --*/
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 768px) {
     nav {
-        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    section.even, section.odd {
+        grid-template-columns: 1fr;
+    }
+    section.even div.poster {
+        order: -1;
     }
 }
