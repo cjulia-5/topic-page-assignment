@@ -37,8 +37,8 @@ svg {
 Document Styles --*/
 
 nav {
-    background-color: rgba(239, 244, 211, 0.669);
-    color: azure;
+    background-color: #dce0d9;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
