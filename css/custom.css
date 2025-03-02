@@ -132,4 +132,6 @@ body {
         gap: 2rem;
     }
     section.even, section.odd {
-        grid-templat
+        grid-template-columns: 1fr;
+    }
+    }
