@@ -1,4 +1,28 @@
 /* add css */
+:root {
+    --bg: #fec5ef;
+    --lbg: #fef9d4;
+    --fg: #fea77f;
+    --acc: #ff7698;
+    --head: "Lilita One", serif;
+    --body: "Raleway", serif;
+
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}
+a:hover {
+    color: var(--ac);
+}
+a:active {
+    color:var(--acc);
+}
 html {
     font-size: 62.5%
 }
@@ -23,7 +47,7 @@ h6 {font-size: 1.6rem;}
 
 h1, h2, h3, h4, h5, h6{font-weight: 600;}
     img{
-        width: 75%;
+        width: auto;
         height:auto;
     }
 svg {
