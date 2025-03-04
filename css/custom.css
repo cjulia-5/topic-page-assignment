@@ -121,8 +121,13 @@ div.text {
 body {
     background-color: #fbf6ef;
 }
-
-
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: .25em;
+    color: #F0F0F0;
+}
 
 
 
