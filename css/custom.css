@@ -47,7 +47,7 @@ h6 {font-size: 1.6rem;}
 
 h1, h2, h3, h4, h5, h6{font-weight: 600;}
     img{
-        width: auto;
+        width: 100%;
         height:auto;
     }
 svg {
@@ -93,7 +93,8 @@ nav img {
     width: auto;
 }
 main {
-    max-width: fit-content;
+    max-width: 78vw;
+    margin: auto;
 }
 section {
     display: grid;
@@ -161,4 +162,4 @@ footer {
     section.even div.poster {
         order: -1;
     }
-}
+ }
