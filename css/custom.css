@@ -1,12 +1,32 @@
 /* add css */
 :root {
-    --bg: #fec5ef;
+    --bg: #e3d9e1;
     --lbg: #fef9d4;
     --fg: #fea77f;
-    --acc: #ff7698;
+    --acc: #926f78;
     --head: "Lilita One", serif;
     --body: "Raleway", serif;
-
+}
+.quote {
+    background: var(--lbg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 4rem 0;
+    margin: 3rem auto;
+    outline: 2px dashed var(--fg);
+    outline-offset: -2rem;
+}
+blockquote:before {
+    content: '"';
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 8rem;
+    position: relative;
+    left: -5vw;
+    top: 6vh;
+    color: var(--acc)
 }
 a {
     text-decoration: none;
@@ -31,6 +51,7 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.15;
 }
+
 h1 {
     font-size: 2.6rem;
     text-align: center;
@@ -87,7 +108,8 @@ nav div {
     padding-top: 10px;
 }
 .links {
-    gap: 4rem
+    gap: 4rem;
+    font-size:1.2rem;
 }
 nav img {
     height: 6rem;
@@ -95,6 +117,7 @@ nav img {
 }
 main {
     max-width: 78vw;
+    padding: 2rem;
     margin: auto;
 }
 section {
