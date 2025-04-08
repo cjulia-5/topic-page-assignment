@@ -149,7 +149,7 @@ footer {
     text-align: center;
 }
 
-
+/*-- Fonts --*/
 
 .libre-baskerville-regular {
     font-family: "Libre Baskerville", serif;
@@ -169,10 +169,6 @@ footer {
     font-style: italic;
   }
   
-
-
-
-
 /*-- Media Queries --*/
 
 @media screen and (max-width: 768px) {
@@ -184,6 +180,6 @@ footer {
         grid-template-columns: 1fr;
     }
     section.even div.poster {
-        order: -1;
+        order: 3;
     }
  }
